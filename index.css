@@ -1,0 +1,62 @@
+.photo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+body{
+    background-color: white;
+    margin: 20px;;
+    padding: 50px;;
+    border: 10px solid black;
+    border-radius: 10px;
+
+}
+
+.intro{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px black;
+    padding: 5px 15px 20px 15px;
+    background-color: beige;
+    
+}
+
+.aboutMe{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px black;
+    padding: 10px 30px 50px 30px;
+    background-color: slategrey;
+}
+
+.socials{
+    display: block;
+    border: 5px solid blanchedalmond;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.listo{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    border: 2px solid blue;
+}
+.listo>h3{
+    margin: 2px;
+
+}
+.listo>li{
+    margin: 15px;;
+
+}
