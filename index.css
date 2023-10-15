@@ -13,7 +13,6 @@ source file then use it as fonts
     margin-right: auto;
     margin-bottom: 20px;
     border-radius: 100px;
-
 }
 
 
@@ -71,12 +70,14 @@ body{
     margin-top: 30px;
 }
 .socials>h3{
+    margin-left: 20px;
     margin-bottom: 4px;
+    text-shadow: 0px 0px 29px rgb(128, 2, 247);
 }
 .listo{
     display: flex;
     justify-content: center;
-    margin: 2px;
+    margin: 2px 0px 2px 0px;
     border: 2px ;
     list-style: none;
 }
@@ -102,9 +103,4 @@ body{
     padding: 3px;
     border: none;
     font-family: 'Orbitron', sans-serif;
-}
-.vic{
-    border: 2px solid white;
-    display: block;
-    width: 200px;
 }
