@@ -1,19 +1,39 @@
+@font-face {
+    font-family: GTA;
+    src: url("images/Floe.otf");
+}
+/*code above to download a font file then name it and link the 
+source file then use it as fonts
+*/
+
 .photo{
-    width: 300px;
+    width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 100px;
 
 }
 
 
 body{
+    display: flex;
+    justify-content: space-around;
     background-color: white;
     margin: 20px;;
     padding: 50px;;
-    border: 10px solid black;
+    border: 10px  black;
     border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-size: cover;
+    background-image: url("images/giphy.gif");
+    background-size: cover;
+}
 
+.top{
+    margin-top: 60px;
 }
 
 .intro{
@@ -21,10 +41,12 @@ body{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    border: 4px black;
+    border: 4px;
     padding: 5px 15px 20px 15px;
-    background-color: beige;
-    
+        
+}
+.intro>h1{
+    border-bottom: 2px solid white;
 }
 
 .aboutMe{
@@ -34,29 +56,55 @@ body{
     margin-right: auto;
     border: 4px black;
     padding: 10px 30px 50px 30px;
-    background-color: slategrey;
 }
-
+.aboutMe>h2{
+    border-bottom: 2px solid white;
+}
 .socials{
     display: block;
-    border: 5px solid blanchedalmond;
+    border: 5px ;
     width: 300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+    margin-top: 30px;
+}
+.socials>h3{
+    margin-bottom: 4px;
 }
 .listo{
     display: flex;
     justify-content: center;
     margin: 2px;
-    border: 2px solid blue;
+    border: 2px ;
+    list-style: none;
 }
 .listo>h3{
     margin: 2px;
 
 }
 .listo>li{
-    margin: 15px;;
+    margin: 0px;
 
+}
+
+.btn{
+    display: block;
+    margin-top: 8px;
+    background-color: white;
+    padding: 6px 12px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.input1{
+    background-color: white;
+    padding: 3px;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+}
+.vic{
+    border: 2px solid white;
+    display: block;
+    width: 200px;
 }
